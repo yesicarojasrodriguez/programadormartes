@@ -2,4 +2,3 @@ galletitas
 fideos
 papel 
 empanadas
-arroz
