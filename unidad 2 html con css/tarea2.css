@@ -1,0 +1,28 @@
+h1{
+    color: red;
+    background-color: aquamarine; /*color de fondo*/
+    text-align: center;
+    text-transform: uppercase; /* tipo de letra(este caso ,mayuscula)*/
+}
+h2{
+    color: aqua;
+    
+}
+p{
+    color: blueviolet; /* color de parrafo*/
+}
+.destacados{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif; /* tipo de letra distinta*/
+    font-size: 20px ;
+}
+#caja{ 
+    width: 150px; /* ancho */
+    height: 100px; /* alto*/
+    border: 2px solid black; /* borde*/
+    background-color: orangered;
+
+}
+#caja ol{
+    text-align: center;
+}
