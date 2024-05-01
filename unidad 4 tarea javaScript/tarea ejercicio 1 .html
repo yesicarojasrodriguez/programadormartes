@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+		distancia= parseInt(prompt('Ingrese distancia:', ''));
+        if (distancia < 1000) {
+            document.write('medio de transporte a pie')
+            
+        } else if (distancia <= 10000)  {
+            document.write('medio de transporte en bici')
+            
+        } else if  ( distancia <= 30000){
+            document.write('medio de transporte en colectivo')
+        } else if ( distancia <= 100000) {
+            document.write('medio de transporte en auto')
+        } else{
+            document.write('medio de transporte avion')
+        }
+	</script>
+
+        
+</body >
+
+</html >
