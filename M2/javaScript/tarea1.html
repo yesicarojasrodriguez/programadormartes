@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea 1 </title>
+    <link rel="stylesheet" href="tarea 1.css">
+</head>
+<body>
+   <div class="colores">
+    <span class="activo" style="--clr:#1dda;" onclick="cambiarcolor('#1dda')"></span>
+    <span style="--clr:#a1dd;"onclick="cambiarcolor('#a1dd')" ></span>
+    <span style="--clr:#12f538;"onclick="cambiarcolor('#12f538')" ></span>
+   </div>
+   <script>
+    function cambiarcolor(color){
+        document.body.style.background = color;
+        document.querySelectorAll('span').forEach(function(item){
+            item.classList.remove('activo');
+        });
+        event.target.classList.add('activo')
+        }
+   </script>
+</body>
+</html> 
