@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <div class="texto">
+    <textarea name="contador" id="contador" onkeyup="contarletras();" cols="50"></textarea>
+   </div>
+   <div class="respuesta">
+    <p> numero de caracteres: <div id="respuesta"></div></p>
+   </div>
+    <script>
+        function contarletras(){
+            var total= 999;
+            setTimeout(function(){
+                var valor = document.getElementById('contador');
+                var respuesta = document.getElementById('respuesta');
+                var cantidad =valor.value.length;
+                document.getElementById('respuesta').innerHTML=cantidad
+            });
+        }
+    </script>
+</body>
+
+</html>
